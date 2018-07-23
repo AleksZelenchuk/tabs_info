@@ -1,0 +1,9 @@
+.catalog-product-view .product.info.detailed #description .product.attribute.description{
+    width: 49%;
+    float: left;
+    border-right: 1px solid #cccccc;
+}
+.catalog-product-view .product.info.detailed #description .additional-attributes-wrapper{
+    width: 49%;
+    float: right;
+}
