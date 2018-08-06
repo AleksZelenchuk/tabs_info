@@ -7,7 +7,7 @@
 -->
 <page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <head>
-        <css src="Dv_TabsInfo::css/styles.css"/>
+        <css src="Namespace_TabsInfo::css/styles.css"/>
     </head>
     <body>
         <referenceBlock name="product.attributes" remove="true"/>
@@ -15,7 +15,7 @@
             <referenceBlock name="product.info.details">
                 <referenceBlock name="product.info.description">
                     <action method="setTemplate">
-                        <argument name="template" xsi:type="string">Dv_TabsInfo::product/view/attribute.phtml</argument>
+                        <argument name="template" xsi:type="string">Namespace_TabsInfo::product/view/attribute.phtml</argument>
                     </action>
                     <arguments>
                         <argument name="at_call" xsi:type="string">getDescription</argument>
