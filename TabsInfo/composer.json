@@ -1,5 +1,5 @@
 {
-  "name": "dv/module-tabsinfo",
+  "name": "namespace/module-tabsinfo",
   "description": "Tabs info transform",
   "type": "magento2-module",
   "version": "1.2.1",
@@ -9,7 +9,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Dv\\TabsInfo\\": ""
+      "Namespace\\TabsInfo\\": ""
     }
   }
 }
