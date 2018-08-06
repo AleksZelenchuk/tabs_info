@@ -19,7 +19,7 @@ define([
 
     return Component.extend({
         defaults: {
-            template: 'Dv_TabsInfo/shipping-address/address-renderer/default'
+            template: 'Namespace_TabsInfo/shipping-address/address-renderer/default'
         },
 
         /** @inheritdoc */
